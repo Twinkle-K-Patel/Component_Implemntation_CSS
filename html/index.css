@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.App-header {
+	background-image: linear-gradient(135deg, #fdfcfb 10%, #e2d1c3 100%);
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	font-size: 15px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+} 
+
+.CartContainer{
+	width: 1063px;
+	height: 40%;
+	line-height: 1.8;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #1687d933;
+	background-color:#f8f8f8;
+}
+
+.button{
+	border: none;
+	width: 80%;
+	height: 40px;
+  	color: white;
+  	padding: 20px;
+	justify-content: center;
+	align-items: center;
+  	padding: 10px;
+  	text-decoration: none;
+  	display: inline-block;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+  	margin: 4px 2px;
+	background-color: #3030ff;
+	border-radius: 4px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+	position: relative;
+    display: inline-block;
+    font-size: .5em;
+    line-height: 1.2;
+}	
+
+* {
+	box-sizing: border-box;
+}
+	  
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;		
+	width: 322px;
+	padding: 10px;
+	height: 350px; 
+		
+}
+	  
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ul.a {
+	list-style: square inside url("check_2.png");
+	line-height: 3.0;
+	
+  }	  
+	  
+ul.b {
+	list-style-type: "*";
+	list-style-position: inside;
+}	
+
+h4{
+	color:blue;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+h4:after {
+	content: "";
+	flex: 1 1;
+	border-bottom: 2px solid #000;
+	margin: auto;
+	
+}
+
+
+  
+  
